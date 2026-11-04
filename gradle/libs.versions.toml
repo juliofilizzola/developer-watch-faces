@@ -1,0 +1,6 @@
+[versions]
+# AGP 9.0.0 + Gradle 9.2.1 is the combination used by Google's official WFF samples.
+androidGradlePlugin = "9.0.0"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
